@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando</title>
+</head>
+<body>
+    <h1>Praticar as imagens dinâmicas</h1>
+    <p>Presiso fazer com que as imagens fiquem dinâmicas com a largura da tela do usuario</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/paisagem-p/jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/paisagem-m.jpg" type="image/jpg">
+        <img src="imagens/paisagem-g.jpg" alt="Imagem grande">
+    </picture>
+</body>
+</html>
